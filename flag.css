@@ -1,0 +1,38 @@
+body{
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flag{
+  width: 70vw;
+  height: 300px;
+  border: 2px solid black;
+  position: relative;
+  top: 20vh;
+  overflow:hidden ;
+}
+.black{
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  height: 100px;
+
+}
+.green{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background: green;
+}
+.red{
+  position: absolute;
+  border: none;
+  left: -140px;
+  top: 30px;
+  width: 240px;
+  height: 240px;
+  background-color: red;
+  transform: rotate(45deg);
+}
